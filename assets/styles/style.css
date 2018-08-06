@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+	overflow: visible;
+
+}
+
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+    background-image: url("../img/background-b.jpg");
+	display: table;
+	top: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1{
+	font-family: 'Raleway', sans-serif;
+	colour: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+}
+
+.content h2{
+	font-family: 'Raleway', sans-serif;
+	colour: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 250%;
+}
+
+.fa {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+.fa:hover {
+	color: #fff;
+	border: solid #fff;
+}
+
+.github{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+.github:hover {
+	color: #fff;
+	border: solid #fff;
+}
+
+.website{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+.website:hover {
+	color: #fff;
+	border: solid #fff;
+}
+
+
+p{
+	font-size: 160%;
+	allign-height: 210%;
+	text-allign: justify;
+	margin: 3%;
+	font-family: sans-serif;
+}
+
+/*footer navigation*/
+footer
+{
+    width: 100%;
+    text-align: center;
+}
+
+footer ul
+{
+    list-style-type: none;
+}
+
+footer ul li
+{
+    display: inline;
+    margin: 15px;
+}
+
+footer ul li a
+{
+    font-family: 'Oswald';
+    font-size: 70%;
+    text-decoration: underline;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer ul li a:hover
+{
+    color: white;
+    background: black;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px){
+	.content h1{
+		font-size: 250%;
+	}
+	.content h2{
+	font-size: 150%;
+	}
+	.linkdin {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	p {
+		font-size: 100%;
+		line-height: 160%;
+	}
+}
