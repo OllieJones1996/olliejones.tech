@@ -8,6 +8,9 @@
 </head>
 
 <body>
+	<!--SCRIPTS-->
+	<script src="assets/javascript/tabs.js"></script>
+	
 	<section class="intro">
 		<div class = "inner">
 			<div class = "content">
@@ -17,14 +20,56 @@
 				<a href="https://www.linkedin.com/in/olliejones1996/" class="fa fa-linkedin" target="_blank"></a>
 				<a href="https://github.com/OllieJones1996" class="fa fa-github" target="_blank"></a>
 			</div>
-		</div>			
+		</div>	
 	</section>
 	
 	<section class="para1">
 		<h1>Welcome</h1>
-		<p>This website is under construction</p>
-		<img src="assets/img/Photo.jpg" height="400" width="400"/>
+		<p>This website is under construction.
+		
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<img src="assets/img/Photo.jpg" height="400" width="400" class = "img-Photo"/>
 	</section>	
+	
+	<section>
+		<!-- Tab links -->
+		<div class="tab">
+		  <button class="tablinks" onclick="openCity(event, 'Projects')" id="defaultOpen">Projects</button>
+		  <button class="tablinks" onclick="openCity(event, 'Year1')">Year 1</button>
+		  <button class="tablinks" onclick="openCity(event, 'Year2')">Year 2</button>
+		  <button class="tablinks" onclick="openCity(event, 'Year3')">Year 3</button>
+		</div>
+		
+		<!-- Tab content -->
+		<div id="Projects" class="tabcontent">
+			<h3>Projects</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+
+		<div id="Year1" class="tabcontent">
+		  <h3>Year 1</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p> 
+		</div>
+
+		<div id="Year2" class="tabcontent">
+		  <h3>Year 2</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		</div>
+		
+		<div id="Year3" class="tabcontent">
+		  <h3>Year 3</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		</div>
+		
+		
+		<script>document.getElementById("defaultOpen").click();</script>
+		
+	</section>
 </body>
 
 <footer>
